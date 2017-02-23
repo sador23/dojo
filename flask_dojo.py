@@ -1,6 +1,6 @@
 from peewee import *
 
-psql_db = PostgresqlDatabase('flask_dojo', user='postgres')
+psql_db = PostgresqlDatabase('flask_dojo', user='sador')
 
 
 class BaseModel(Model):
